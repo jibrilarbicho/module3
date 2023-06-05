@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	
+	font-size: 16px;
+	color: black;
+font-family: 'Times New Roman', Times, serif;
+}
+header {
+
+	width: 100%;
+	z-index: 10;
+  
+  }
+
+#header-nav {
+	background-color: #666;
+	border-radius: 0;
+	border: 0;
+	color: black;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.nav-item a {
+    color: yellow; 
+	text-align: center;font-size: xx-large;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-family: 'Lora',serif;
+    color: #557c3e;
+    line-height: .79;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-right: 2px;
+
+
+}
+.nav-item a:hover {
+	background-color: #8243d6;
+}
+
+.navbar-header a h1{
+	padding-top: 12px;
+	color: beige;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #666;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+
+
+@media (max-width: 867px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+	#collapsable-nav{
+		background-color: white;
+	}
+	#collapsable-nav ul li a{
+		color: black;
+
+	}
+	
+	.collapse{
+		margin-left:0 ;
+		width: 100%;
+	}
+	
+}
